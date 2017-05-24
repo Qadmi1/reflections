@@ -1,0 +1,4 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is a temporary place that holds which file/files will be added as a single commit to the repository, it's
+value that it gives you the flexibility to choose which files should be added in a sinle commit.
