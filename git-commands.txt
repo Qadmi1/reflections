@@ -1,0 +1,13 @@
+git diff //Compare two commits, printing each line that is present in one commit but not the other.
+git log //Show the commits made in this repository, starting with the most recent.
+git --stat // shows statistics about recent commits
+git clone // Make a copy of an entire Git repository, including the history, onto your own computer and works on git 
+repository only.
+git config --global color.ui auto //make the added and deleted changes in commit coloured
+q //quit
+git checkout // Temporarily reset all files in a directory to their state at the time of a specific commit.
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"//set a default editor
+-n// open (sublime) in a new window
+-w//git will wait untill (sublime) before trying to continue
+mv// change name of a file if no directory is set else change name and directory
+ls -a// show all files with hidden files
