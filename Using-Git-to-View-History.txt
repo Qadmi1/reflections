@@ -1,0 +1,3 @@
+How can you use the commands git log and git diff to view the history of files?
+git log shows recently made commits old to new from bottum to top and git diff shows what added and deleted in the second
+or newer commit.
