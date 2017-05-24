@@ -1,0 +1,2 @@
+How might using version control make you more confident to make changes that could break something?
+Because i can always check the previuos commits and compare them to see the differences.

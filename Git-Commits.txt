@@ -1,0 +1,8 @@
+what is git and what is a git commit?
+git is a version control system with having in mind dealing with code.It allows you to use any editor, check the versions
+offline and manualy save the versions.
+
+commit is the building block of git each represent a version at a point of time they are created when the user enter a
+commit message.
+
+also there is SVN subversion but it does not allow you to view offline.
