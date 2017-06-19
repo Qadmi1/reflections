@@ -1,0 +1,31 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+    It turns it into a git repository, to create the .git file  that will save my history of versions by storing metadata about it.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    Staging area is a temporary place that holds which file/files will be added as a single commit to the repository, it's
+    value that it gives you the flexibility to revise which file/files should be added in a single commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+    By using git diff staged i can compare the changes in the stageing area with the latest commit.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    When for example you want to add an easy mode for a game or when you want to create an experimental version you create
+    a branch for them  while keeping the master branch unchanged .
+
+5. How do the diagrams help you visualize the branch structure?
+
+    By using a diagram i can see from where any new branch was created.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result is a merge of the code from both branches to get both of the features ,the reason we represent it that way is
+    because we have a clear idea and representation on our branches.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging saves time and energy, but often can't effectively deal with conflicts 
+    Manual merging could be used all the time when merging, but it will take more time to review and compare code.
