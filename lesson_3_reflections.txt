@@ -16,6 +16,10 @@
   2-You can use get fetch to compare the commits before merging and you can work on it offline.
   3-You can work on conflicts with another collaborator.
 
+5-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  By manually checking the file and then if i have a suggested change i would contact with my collaborator through the email.
+  The manual way would be harder and using Git or GitHub would be alot easier.
+
  
 
 
