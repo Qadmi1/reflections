@@ -1,4 +1,4 @@
-git diff //Compare two commits, printing each line that is present in one commit but not the other.
+git diff //Compare two commits(older to recent usually(, printing each line that is present in one commit but not the other.
 git log //Show the commits made in this repository, starting with the most recent.
 git --stat // shows statistics about recent commits
 git clone // Make a copy of an entire Git repository, including the history, onto your own computer and works on git 
@@ -11,3 +11,23 @@ git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.e
 -w//git will wait untill (sublime) before trying to continue
 mv// change name of a file if no directory is set else change name and directory
 ls -a// show all files with hidden files
+git add // add files to the staging area
+git commit //commit the file/files in the staging area 
+git diff // show any changes that you made on the working directory but not added to the staging area
+git diff --staged // show the changes made in the staging area
+git reset --hard // discard any changes you have made in either the working directory or staging area
+git branch // Create and view branches.
+git log --graph --online //arg// // see the visual representation of the commit history
+git checkout -b //add a new branch and check it out.
+git merge // merge 2 branches and take 2 arguments.you merge the second branch into the first one.
+git show // take a commit as an arg and show the differences between this commit and it's parent without knowing who the parent was.
+git branch -d // take a branch as an arg and it deletes that branch.
+git merge --abort // Restore your files to their state before you started the merge.
+git remote //View remotes.
+git remote add // add a remote with its URL.
+bash // Take 2 argument first a file that make it seem someone modified you're fork second argument the url of you're fork.
+git fetch //take a remote ad an argument and copy the commit grom the GitHub remote to lacal remote.
+git remote -v // V stands for verbose, and means that git remote will output more information. 
+git push // Add the changes to the remote, takes 2 arguments the remote and the branch.
+git pull // Get the changes made on the remote and apllies them on lacal repository, takes 2 arguments the remote and the branch.
+git init // Intialize git repository
