@@ -6,4 +6,5 @@ cons:
 -You may not choose the right number of commits.
 pros:
 -You're commits will have logical meanings.
+-You will have full control on you're history.
 

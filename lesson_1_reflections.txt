@@ -1,3 +1,41 @@
-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
 
-by using the - for oldfile and + for new file it made it  very easy to recognize where the typo was.
+        By using the - for the deleted line and + for the added line in the second file it made it easy to recognize where the typo was.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+        In the process of changing a file some changes might introduce  unexpected results, and Git allows you to check what you did in 
+        older versions and compare between them to find out why you got the unexpected results which will save you alot of time, confusion 
+        and effort also it will make you confident to make any change.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pros:
+        Manually choosing when to create a commit often make the commit reasonable and logical.
+        Manually choosing when to create will help you remember what you did in you're commits.
+        Cons:
+        You might forget to commit when using you manually choose when to commit.
+	You need to be able to decide when to make the commit which mighr be challenging sometimes.
+   
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+        Because git deals with code which may have multiple related files and google docs deal with one file only.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows recently made commits old to new from bottum to top and git diff shows what added and deleted in the second
+    or newer commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because i can always check the previuos commits and compare them to see the differences.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try it on my android projects.

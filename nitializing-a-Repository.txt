@@ -1,2 +1,0 @@
-What happens when you initialize a repository? Why do you need to do it?
-it turns to a git repository ,to create the .git file that will save my history of versions.

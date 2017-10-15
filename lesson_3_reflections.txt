@@ -20,6 +20,13 @@
   By manually checking the file and then if i have a suggested change i would contact with my collaborator through the email.
   The manual way would be harder and using Git or GitHub would be alot easier.
 
+6-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  I would use a seperate beanch when i want to add a new feature or modify something on our files when i work with a group
+  because it is not acceptable to change master directly without pull requests.
+  The benefit of using branches is you wont break master or you wont slow down the progress on master.
+  The benefit of working directly is it's quicker and easier.
+
+
  
 
 
